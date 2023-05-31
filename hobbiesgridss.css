@@ -1,0 +1,143 @@
+.header {
+    display: flex;
+    width: 1830px;
+    height: 100px;
+    background-color: black;
+    color: rgb(147, 191, 235);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+}
+.nav    {
+    display: flex;
+    width: 1830px;
+    height: 100px;
+    background-color: rgb(147, 191, 235);
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+.grid-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 400px 400px 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    gap: 15px;
+}
+.grid-container .grid-item1 {
+    background-color: lightgray;
+    border: 1px solid darkslategrey;
+    background-image: url(dog.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.text1  {
+    display: flex;
+    background-color: floralwhite;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.grid-container .grid-item2 {
+    border: 1px solid darkslategrey;
+    background-image: url(HCLugano.ch_News-1.jpg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.title2 {
+    display: flex;
+    background-color: rgb(186, 212, 238);
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.text2  {
+    display: flex;
+    background-color: rgb(186, 212, 238);
+    color: black;
+    font-size: larger;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+}
+.grid-container .grid-item3 {
+    background-color: rgb(220, 229, 231);
+    border: 1px solid darkslategrey;
+    background-image: url(Skindness.jpg);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: xx-large;
+}
+.grid-container .grid-item4 {
+    background-color: black;
+    color: floralwhite;
+    border: 1px solid darkslategrey;
+    background-image: url(image.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.text4  {
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.grid-container .grid-item5 {
+    background-color: black;
+    color: ghostwhite;
+    border: 1px solid darkslategrey;
+    background-image: url(dummy-code.webp);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grid-item5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title5 {
+    display: flex;
+    background-color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
